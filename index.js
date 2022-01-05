@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown')
 
 // prompts user with questions for README
 const questions = () => {

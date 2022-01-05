@@ -8,7 +8,7 @@ This is an open source project that will generate high-quality and professional 
 * npm inquirer
 
 ## Walk-through Video of application:
-<iframe src="https://drive.google.com/file/d/1SvSJpOsUVlo1JvuLVkst5hzkzrbQO2Lb/preview" width="640" height="480"></iframe>
+
 
 ### Example of command-line application:
 ![Screen Shot 2022-01-05 at 4 23 26 PM](https://user-images.githubusercontent.com/92767735/148293998-6b396c39-6c3a-4059-8cff-ce780ebac7b8.png)

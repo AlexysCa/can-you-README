@@ -22,7 +22,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'install',
-        message: 'Provide installation process.',
+        message: 'What should users have installed?',
     },
     {
         type: 'input',
@@ -32,7 +32,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'contribute',
-        message: 'Provide guidelines on how users can contribute to the application',
+        message: 'Provide guidelines on how users can contribute to the application.',
     },
     {
         type: 'input',
@@ -61,7 +61,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'issues',
-        message: 'What do users do if they have isues?',
+        message: 'What should users do if they have issues?',
     },
     {
         type: 'input',

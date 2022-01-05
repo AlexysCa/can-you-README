@@ -14,8 +14,7 @@ This is an open source project that will generate high-quality and professional 
 ![Screen Shot 2022-01-05 at 4 23 26 PM](https://user-images.githubusercontent.com/92767735/148293998-6b396c39-6c3a-4059-8cff-ce780ebac7b8.png)
 
 ### Example of README file generated:
-![Screen Shot 2022-01-05 at 4 56 24 PM](https://user-images.githubusercontent.com/92767735/148295406-c39a1a97-6be1-48e5-8370-28c54e170c6b.png)
+![Screen Shot 2022-01-05 at 5 23 23 PM](https://user-images.githubusercontent.com/92767735/148298090-114d1cb2-22be-4477-9902-9da798399685.png)
 
-![Screen Shot 2022-01-05 at 4 56 31 PM](https://user-images.githubusercontent.com/92767735/148295430-d48b2455-7266-4c45-89eb-83b9cf7763ba.png)
-
+![Screen Shot 2022-01-05 at 5 23 29 PM](https://user-images.githubusercontent.com/92767735/148298137-ae10c74b-650b-47ab-8c96-f07decc2f344.png)
 

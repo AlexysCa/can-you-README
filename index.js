@@ -1,6 +1,10 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown')
+const fs = require('fs');
+const util = require('util');
+const generateMarkdown = require('./utils/generateMarkdown');
+const console = require('console');
+const writeToFile = util.promisify(fs.writeFile);
 
 // prompts user with questions for README
 const questions = () => {
@@ -14,11 +18,6 @@ const questions = () => {
        type: 'input',
        name: 'description',
        message: 'Provide a description about your project.', 
-    },
-    {
-       type: 'input',
-       name: 'contents',
-       message: 'Enter Table of Contents.',
     },
     {
         type: 'input',
@@ -72,14 +71,18 @@ const questions = () => {
     ]);
 };
 
-questions()
-
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+async function init() {
+    try {
+        const data = await questions();
+        const generateFile = generateMarkdown(data);
 
-// // TODO: Create a function to initialize app
-// function init() {}
+        await writeToFile('./dist/README.md', generateFile);
+        console.log('README.md has been created!');
+    } catch(err) {
+        console.log(err);
+    }
+}
 
-// // Function call to initialize app
-// init();
+init();

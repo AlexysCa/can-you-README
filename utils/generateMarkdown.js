@@ -16,7 +16,7 @@ function generateMarkdown(data) {
   * [License](#license)
   * [Contributing](#contribute)
   * [Tests](#instructions)
-  * [Issues](#issues)
+  * [Questions](#issues)
 
   ## Installation
   ${data.install}
@@ -33,7 +33,7 @@ function generateMarkdown(data) {
   ## Tests
   ${data.instructions}
 
-  ## Issues 
+  ## Questions 
   ${data.issues}<br />
   <br />
   Find me on GitHub: [${data.github}](https://github.com/${data.github})<by />
